@@ -166,7 +166,7 @@ nav a:hover {
     padding: 0.75rem;
     border-radius: 20px;
     text-decoration: none;
-    margin-left: 1rem;
+    margin-right: 1rem;
     transition: all 0.25s ease-in-out;
 }
 
@@ -420,6 +420,28 @@ nav a:hover {
 
     .card-grid {
         grid-template-columns: 1fr;
+    }
+
+    .hero-container,
+    .contact-container {
+       flex-direction: column;
+       text-align: center;
+    }
+
+    .hero-text,
+    .contact-text {
+       text-align: center;
+    }
+
+    .hero-image img {
+       width: 200px;
+       height: 200px;
+    }
+
+    .education-table {
+       display: block;
+       overflow-x: auto;
+       white-space: nowrap;
     }
 }
 
