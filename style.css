@@ -343,10 +343,8 @@ nav a:hover {
     border: 1px solid var(--border);
     border-radius: 20px;
     padding: 1.5rem;
-    max-width: 400px;
     background: var(--surface);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    margin: 0 auto;;
 }
 
 .card:hover {
