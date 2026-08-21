@@ -7,79 +7,169 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-    <title>Aviv Arendse - Junior Frontend Developer</title>
+    <title>Aviv Arendse - Junior Full-stack Developer</title>
 </head>
 
 <body>
     <header>
         <nav>
             <div class="nav-container">
-             <a href="#hero" class="nav-logo">AA.
-             </a>
-                 <ul>
+                <a href="#hero" class="nav-logo">AA.</a>
+
+                <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+
+                <ul class="nav-links">
                     <li><a href="#about">About Me</a></li>
-                    <li><a href="#education">Education</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
                     <li><a href="#contact">Contact</a></li>
-                 </ul>
+                </ul>
             </div>
         </nav>
+
         <section id="hero">
-            <div class = "container hero-container">
-            <div class="hero-text">
-                <h1>Hi, I'm Aviv Arendse</h1> 
-                <h2>Software Developer</h2>
-                <p>Software Developer in training, building real projects from Cape Town.</p>
-                <a href="https://github.com/avivarendse" target="_blank" rel="noopener noreferrer" class = "btn-github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/aviv-arendse-bb2815255/" target="_blank" rel="noopener noreferrer" class = "btn-linkedin"><i class="fab fa-linkedin-in"></i></a>
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <h1>Hi, I'm Aviv Arendse</h1>
+                    <h2>Junior Software Developer</h2>
+                    <p>I build responsive web applications while developing my skills across the frontend and backend.</p>
+
+                    <a href="https://github.com/avivarendse"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn-github">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/aviv-arendse-bb2815255/"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="btn-linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+
+                <div class="hero-image">
+                    <img src="headshot.jpg"
+                         alt="Aviv Arendse, Junior Software Developer">
+                </div>
             </div>
-            <div class="hero-image">
-                <img src="headshot.jpg" alt="Aviv Arendse, Junior Frontend Developer">
-            </div>
-        </div>
-    </section>
+        </section>
     </header>
 
     <main>
-        <hr>
 
         <section id="about">
-            <div class = "container">
+            <div class="container">
                 <h2>ABOUT ME</h2>
-                <p>I'm a full-stack web development student at Life Choices Academy in Cape Town, currently working through backend development after completing the frontend stack (HTML, CSS, JavaScript, Vue.js, Bootstrap). I learn by building real projects rather than just studying theory. My recent work includes a Vue.js/Bootstrap HR management system built with a team, and Pawtopia, a booking platform I led as project manager, handling repo setup, team coordination, and design consistency. I'm looking for a junior developer role where I can keep building production-level skills alongside experienced developers..</p>
+
+                <p>
+                    I'm a full-stack web development student at Life Choices Academy in Cape Town,
+                    currently working through backend development after completing the frontend stack
+                    (HTML, CSS, JavaScript, Vue.js, Bootstrap). I learn by building real projects rather
+                    than just studying theory. My recent work includes a Vue.js/Bootstrap HR management
+                    system built with a team, and Pawtopia, a booking platform I led as project manager,
+                    handling repo setup, team coordination, and design consistency. I'm looking for a
+                    junior developer role where I can keep building production-level skills alongside
+                    experienced developers.
+                </p>
             </div>
         </section>
 
         <hr>
-        <section id="education">
+
+        <section id="skills">
             <div class="container">
-                <h2>EDUCATION</h2>
-                <div class = "table-wrapper">
-                    <table class="education-table">
-                        <tr>
-                            <th>Institution</th>
-                            <th>Qualification</th>
-                            <th>Duration</th>
-                            <th>Status</th>
-                        </tr>
-                        
-                        <tr>
-                            <td>Life Choices Academy</td>
-                            <td>Full-Stack Web Development</td>
-                            <td>April - September 2026</td>
-                            <td>In Progress</td>
-                        </tr>
-                    </table>
-                </div>
-                
-                <div class="curriculum">
-                    <h3>Curriculum</h3>
-                    <ul>
-                        <li>Python Fundamentals - Core programming concepts and problem-solving</li>
-                        <li>Frontend Development - HTML, CSS, JavaScript, Vue.js, and Bootstrap</li>
-                        <li>Backend Development - Node.js, Express.js, PHP, and MySQL</li>
-                    </ul>
+                <h2>SKILLS</h2>
+
+                <div class="skill-groups">
+
+                    <div class="skill-group">
+                        <h3>Frontend</h3>
+
+                        <div class="skill-tags">
+                            <span class="tag">
+                                <i class="devicon-html5-plain"></i>
+                                HTML
+                            </span>
+
+                            <span class="tag">
+                                <i class="devicon-css3-plain"></i>
+                                CSS
+                            </span>
+
+                            <span class="tag">
+                                <i class="devicon-javascript-plain"></i>
+                                JavaScript
+                            </span>
+
+                            <span class="tag">
+                                <i class="devicon-vuejs-plain"></i>
+                                Vue.js
+                            </span>
+
+                            <span class="tag">
+                                <i class="devicon-bootstrap-plain"></i>
+                                Bootstrap
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Backend</h3>
+
+                        <div class="skill-tags">
+                            <span class="tag">
+                                <i class="devicon-nodejs-plain"></i>
+                                Node.js
+                            </span>
+
+                            <span class="tag">
+                                <i class="devicon-express-original"></i>
+                                Express.js
+                            </span>
+
+                            <span class="tag">
+                                <i class="devicon-php-plain"></i>
+                                PHP
+                            </span>
+
+                            <span class="tag">
+                                <i class="devicon-mysql-plain"></i>
+                                MySQL
+                            </span>
+
+                            <span class="tag">
+                                <i class="devicon-python-plain"></i>
+                                Python
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <h3>Tools &amp; Workflow</h3>
+
+                        <div class="skill-tags">
+                            <span class="tag">
+                                <i class="devicon-git-plain"></i>
+                                Git
+                            </span>
+
+                            <span class="tag">
+                                <i class="devicon-github-original"></i>
+                                GitHub
+                            </span>
+
+                            <span class="tag">
+                                <i class="fa-solid fa-code"></i>
+                                REST APIs
+                            </span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -87,75 +177,159 @@
         <hr>
 
         <section id="projects">
-            <div class = "container">
+            <div class="container">
                 <h2>PROJECTS</h2>
 
                 <div class="card-grid">
+
                     <div class="card">
-                        <h3>HRflow (In Progress)</h3>
-                        <p>A front-end HR management system built with Vue.js and Bootstrap as a team project, currently being extended with backend integration as part of the course's backend module.</p>
-                        <a href="https://avivarendse.github.io/phoney-ecom-website/" target="_blank" rel="noopener noreferrer" class="btn-submit">View Project</a>
+                        <h3>HRflow</h3>
+
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>Bootstrap</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>MySQL</span>
+                        </div>
+
+                        <p>
+                            A full-stack HR management system built as a team project.
+                            I contributed to the frontend architecture and employee management
+                            functionality, with backend API integration using Node.js, Express.js,
+                            and MySQL.
+                        </p>
+
+                        <a href="YOUR-HRFLOW-LINK"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn-submit">
+                            View Project
+                        </a>
                     </div>
 
                     <div class="card">
                         <h3>Pawtopia</h3>
-                        <p>A pet care booking website built for a Startup Launch Challenge. Served as project manager and developer — set up the GitHub repo and branch structure, wrote the design brief, and maintained design consistency across pages for a team of 5.</p>
-                        <a href="https://avivarendse.github.io/tech-blog/" target="_blank" rel="noopener noreferrer" class="btn-submit">View Project</a>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>GitHub</span>
+                        </div>
+
+                        <p>
+                            A pet care booking website built for a Startup Launch Challenge.
+                            I served as project manager and developer, setting up the GitHub
+                            repository and branch structure, coordinating the team, and
+                            maintaining design consistency across the project.
+                        </p>
+
+                        <a href="YOUR-PAWTOPIA-LINK"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="btn-submit">
+                            View Project
+                        </a>
                     </div>
+
                 </div>
             </div>
         </section>
 
         <hr>
 
-    <section id="skills">
-        <div class="container">
-            <h2>SKILLS</h2>
-            <div class="skill-tags">
-                <span class="tag"><i class="devicon-python-plain"></i> Python</span>
-                <span class="tag"><i class="devicon-html5-plain"></i> HTML</span>
-                <span class="tag"><i class="devicon-css3-plain"></i> CSS</span>
-                <span class="tag"><i class="devicon-boostrap-plain"></i> Bootstrap</span>
-                <span class="tag"><i class="devicon-vuejs-plain"></i> Vue.js</span>
-                <span class="tag"><i class="devicon-javascript-plain"></i> JavaScript</span>
-                <span class="tag"><i class="devicon-mysql-plain"></i> MySQL</span>
-                
+        <section id="education">
+            <div class="container">
+                <h2>EDUCATION</h2>
+
+                <div class="education-card">
+
+                    <div class="education-item">
+                        <span class="education-label">Institution</span>
+                        <h3>Life Choices Academy</h3>
+                    </div>
+
+                    <div class="education-item">
+                        <span class="education-label">Qualification</span>
+                        <p>Full-Stack Web Development</p>
+                    </div>
+
+                    <div class="education-item">
+                        <span class="education-label">Duration</span>
+                        <p>April - September 2026</p>
+                    </div>
+
+                    <div class="education-item">
+                        <span class="education-label">Status</span>
+                        <p class="education-status">In Progress</p>
+                    </div>
+
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
         <hr>
-        
+
         <section id="contact">
             <div class="container contact-container">
+
                 <div class="contact-text">
                     <h2>Contact Me</h2>
-                    <p>I'm currently open to junior developer roles and internships in Cape Town. Feel free to reach out.</p>
+                    <p>
+                        I'm currently open to junior developer roles and internships in Cape Town.
+                        Feel free to reach out.
+                    </p>
                 </div>
-                
+
                 <div class="contact-form">
                     <form action="https://formspree.io/f/meewzvqv" method="post">
+
                         <label for="name">Name</label>
                         <input type="text" id="name" name="name">
-                        
+
                         <label for="email">Email</label>
                         <input type="email" id="email" name="email">
-                        
+
                         <label for="message">Message</label>
                         <textarea id="message" name="message"></textarea>
-                        
+
                         <button class="btn-submit">Send Message</button>
+
                     </form>
                 </div>
+
             </div>
         </section>
 
-        <hr>
     </main>
 
     <footer>
-        <p>© 2026 Aviv Arendse</p>
+        <div class="footer-content">
+
+            <p>© 2026 Aviv Arendse</p>
+
+            <div class="footer-links">
+
+                <a href="https://github.com/avivarendse"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/aviv-arendse-bb2815255/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+            </div>
+
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
